@@ -8,6 +8,7 @@ import Certificates from './components/Certificates'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CodingProfiles from './components/CodingProfiles'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
         <section id="projects"><Projects /></section>
+        <section id="coding"><CodingProfiles /></section>
         <section id="certificates"><Certificates /></section>
         <section id="resume"><Resume /></section>
         <section id="contact"><Contact /></section>
