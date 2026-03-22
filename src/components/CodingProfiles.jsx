@@ -6,13 +6,13 @@ import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si'
 // ── static GFG data (scraped from profile) ──────────────────────────
 const GFG_DATA = {
   username: 'drishtio1b5',
-  solved: 61,
-  score: 170,
-  streak: 1,
+  solved: 80,
+  score: 219,
+  streak: 13,
   easy: 35,
-  medium: 23,
+  medium: 42,
   hard: 3,
-  instituteRank: 'N/A',
+  
   url: 'https://www.geeksforgeeks.org/profile/drishtio1b5',
 }
 
@@ -83,9 +83,9 @@ function LeetCodeCard() {
 
   // fallback static data if API fails
   const fallback = {
-    totalSolved: 211, easySolved: 100, mediumSolved: 96, hardSolved: 15,
+    totalSolved: 187, easySolved: 75, mediumSolved: 104, hardSolved: 8,
     totalEasy: 850, totalMedium: 1800, totalHard: 800,
-    ranking: 'N/A', acceptanceRate: 50.2,
+     acceptanceRate: 50.2,
   }
   const d = data || (error ? fallback : null)
 
