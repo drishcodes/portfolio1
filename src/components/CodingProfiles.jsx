@@ -279,7 +279,7 @@ function GFGCard() {
 
 // ── Combined stats banner ───────────────────────────────────────────
 function StatsBanner({ lcData }) {
-  const lcSolved  = lcData?.totalSolved ?? 211
+  const lcSolved  = lcData?.totalSolved ?? 267
   const gfgSolved = GFG_DATA.solved
   const total     = lcSolved + gfgSolved
 
