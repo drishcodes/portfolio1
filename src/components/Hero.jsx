@@ -14,7 +14,8 @@ function ProfilePhoto() {
       initial={{ opacity: 0, scale: 0.82, x: 40 }}
       animate={{ opacity: 1, scale: 1, x: 0 }}
       transition={{ delay: 0.3, duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
-      style={{ position: 'relative', width: 260, height: 260, flexShrink: 0 }}
+      style={{ position: 'relative', width: 'clamp(260px, 30vw, 400px)',
+  height: 'clamp(260px, 30vw, 400px)', flexShrink: 0 }}
     >
       {/* Rotating conic-gradient border ring */}
       <div style={{
