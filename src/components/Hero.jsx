@@ -63,7 +63,7 @@ function ProfilePhoto() {
           style={{
             width: '100%', height: '100%',
             objectFit: 'cover',
-            objectPosition: 'center top',  /* keeps face visible */
+            objectPosition: 'center 30%',  /* keeps face visible */
             display: 'block',
             filter: 'brightness(0.97) saturate(1.05)',
             transition: 'transform 0.55s cubic-bezier(0.22,1,0.36,1)',
