@@ -74,7 +74,7 @@ const achievements = [
     title: '3 Skill Badges',
     subtitle: 'HackerRank ',
     desc: 'Achieved the highest 5-star rating on HackerRank\'s Java track by solving progressively challenging problems covering OOP, data structures, generics, and concurrency.',
-    desc:'Earned three skill badges on HackerRank, demonstrating proficiency across multiple domains of problem-solving and programming. Validated strong understanding of core concepts through hands-on coding challenges and assessments. Showcases consistency, technical competence, and the ability to apply knowledge in practical scenarios.',
+    desc:'Earned three skill badges on HackerRank, demonstrating proficiency across multiple domains of problem-solving and programming.',
     stars: 5,
     starColor: '#ffd700',
     accent: '#00ea64',
