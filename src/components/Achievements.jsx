@@ -71,15 +71,16 @@ const achievements = [
     badgeColor: '#00ea64',
     badgeBg: 'rgba(0,234,100,0.08)',
     badgeBorder: 'rgba(0,234,100,0.2)',
-    title: '5★ in Java',
-    subtitle: 'HackerRank · Java Track',
+    title: '3 Skill Badges',
+    subtitle: 'HackerRank ',
     desc: 'Achieved the highest 5-star rating on HackerRank\'s Java track by solving progressively challenging problems covering OOP, data structures, generics, and concurrency.',
+    desc:'Earned three skill badges on HackerRank, demonstrating proficiency across multiple domains of problem-solving and programming. Validated strong understanding of core concepts through hands-on coding challenges and assessments. Showcases consistency, technical competence, and the ability to apply knowledge in practical scenarios.',
     stars: 5,
     starColor: '#ffd700',
     accent: '#00ea64',
     border: 'rgba(0,234,100,0.15)',
     glow: 'rgba(0,234,100,0.05)',
-    tag: 'Java',
+    tag: 'Badges',
     tagIcon: '☕',
     stat: null,
     link: 'https://www.hackerrank.com/',
@@ -93,10 +94,10 @@ const achievements = [
     badgeColor: '#00ea64',
     badgeBg: 'rgba(0,234,100,0.08)',
     badgeBorder: 'rgba(0,234,100,0.2)',
-    title: '5★ in Problem Solving',
+    title: '4★ in Problem Solving',
     subtitle: 'HackerRank · Problem Solving',
     desc: 'Earned the top 5-star badge in Problem Solving on HackerRank by tackling algorithms and data structure challenges across Algorithms, Data Structures, and Mathematics domains.',
-    stars: 5,
+    stars: 4,
     starColor: '#ffd700',
     accent: '#f59e0b',
     border: 'rgba(245,158,11,0.15)',
@@ -260,49 +261,7 @@ export default function Achievements() {
           ))}
         </div>
 
-        {/* Bottom milestone strip */}
-        <FadeIn delay={0.35}>
-          <div className="rounded-2xl p-6 relative overflow-hidden"
-            style={{ background: 'rgba(13,17,25,0.7)', border: '1px solid rgba(99,179,237,0.08)' }}>
-            {/* Subtle shimmer bg */}
-            <div className="absolute inset-0 pointer-events-none"
-              style={{ background: 'radial-gradient(ellipse 80% 100% at 50% 50%, rgba(99,179,237,0.03) 0%, transparent 80%)' }} />
-
-            <p className="font-mono text-xs text-slate-600 uppercase tracking-widest text-center mb-6">Milestone Timeline</p>
-
-            <div className="relative">
-              {/* connecting line */}
-              <div className="absolute top-4 left-0 right-0 h-px hidden md:block"
-                style={{ background: 'linear-gradient(90deg, transparent, rgba(99,179,237,0.15), rgba(245,158,11,0.15), rgba(0,234,100,0.15), transparent)' }} />
-
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 relative">
-                {[
-                  { icon: '☕', label: '5★ Java', sub: 'HackerRank', color: '#00ea64' },
-                  { icon: '🧩', label: '5★ Problem Solving', sub: 'HackerRank', color: '#f59e0b' },
-                  { icon: '💡', label: '200+ Problems', sub: 'Multi-platform', color: '#63b3ed' },
-                  { icon: '🤖', label: 'AI Tools Built', sub: 'Gen AI Projects', color: '#a78bfa' },
-                ].map((m, i) => (
-                  <motion.div key={m.label}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.4 + i * 0.1 }}
-                    className="flex flex-col items-center text-center gap-2"
-                  >
-                    {/* Dot on timeline */}
-                    <div className="w-8 h-8 rounded-full flex items-center justify-center text-base mb-1 relative z-10"
-                      style={{ background: `${m.color}15`, border: `2px solid ${m.color}30`,
-                        boxShadow: `0 0 16px ${m.color}25` }}>
-                      {m.icon}
-                    </div>
-                    <span className="font-body text-sm text-slate-300 font-medium leading-tight">{m.label}</span>
-                    <span className="font-mono text-[10px] text-slate-600">{m.sub}</span>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </FadeIn>
+        
       </div>
     </div>
   )
