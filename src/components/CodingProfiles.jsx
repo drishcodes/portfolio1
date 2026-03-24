@@ -6,7 +6,7 @@ import { SiLeetcode, SiGeeksforgeeks } from 'react-icons/si'
 // ── static GFG data (scraped from profile) ──────────────────────────
 const GFG_DATA = {
   username: 'drishtio1b5',
-  solved: 80,
+  solved: 86,
   score: 219,
   streak: 13,
   easy: 35,
@@ -165,7 +165,7 @@ function LeetCodeCard() {
               {/* Stats row */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: <FiTrendingUp size={13} />, label: 'Global Rank',
+                  { icon: <FiTrendingUp size={13} />,
                     value: d.ranking && d.ranking !== 'N/A' ? `#${Number(d.ranking).toLocaleString()}` : 'N/A',
                     color: '#ffa116' },
                   { icon: <FiTarget size={13} />, label: 'Acceptance',
