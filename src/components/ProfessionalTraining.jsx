@@ -69,38 +69,7 @@ function TrainingCard({ item, delay }) {
               <p className="font-body text-slate-400 text-sm">{item.organization}</p>
             </div>
 
-            {/* Buttons */}
-            <div className="flex items-center gap-2 flex-shrink-0">
-              <a
-                href={item.previewUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg font-mono text-xs font-medium
-                  transition-all duration-200 hover:scale-105 active:scale-95"
-                style={{
-                  background: 'rgba(99,179,237,0.12)',
-                  border: '1px solid rgba(99,179,237,0.3)',
-                  color: '#63b3ed',
-                }}
-              >
-                <FiEye size={12} /> Preview
-              </a>
-              <a
-                href={item.downloadUrl}
-                download
-                className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg font-mono text-xs font-medium
-                  transition-all duration-200 hover:scale-105 active:scale-95"
-                style={{
-                  background: 'linear-gradient(135deg, rgba(0,200,100,0.15), rgba(0,180,80,0.1))',
-                  border: '1px solid rgba(34,197,94,0.35)',
-                  color: '#4ade80',
-                }}
-              >
-                <FiDownload size={12} /> Download
-              </a>
-            </div>
-          </div>
-
+           
           {/* Period badge */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg mb-5"
             style={{
