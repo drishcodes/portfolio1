@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { FiEye, FiDownload, FiCalendar, FiBookOpen } from 'react-icons/fi'
-import trainingCert from '../assets/certificates/w3grads_certificate.jpg'
+// import trainingCert from '../assets/certificates/w3grads_certificate.jpg'
 // import resume from '../assets/resume.pdf'
 
 // ── Data — add more training items here ─────────────────────────────
@@ -11,8 +11,8 @@ const trainings = [
     title: 'MERN with Gen AI',
     organization: 'W3Grads',
     period: 'Jun 2025 – Jul 2025',
-    previewUrl: trainingCert,   // replace with: trainingCert
-    downloadUrl: trainingCert,  // replace with: trainingCert  (or a PDF)
+    previewUrl: '#',   // replace with: trainingCert
+    downloadUrl: '#',  // replace with: trainingCert  (or a PDF)
     points: [
       'Completed structured course covering basic to advanced MERN Stack concepts and projects',
       'Learned new frameworks like React.js, Express.js and MongoDB database',
@@ -69,7 +69,10 @@ function TrainingCard({ item, delay }) {
               <p className="font-body text-slate-400 text-sm">{item.organization}</p>
             </div>
 
-           
+            {/* Buttons */}
+            
+          </div>
+
           {/* Period badge */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg mb-5"
             style={{
