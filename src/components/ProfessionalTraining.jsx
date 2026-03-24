@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { FiEye, FiDownload, FiCalendar, FiBookOpen } from 'react-icons/fi'
-// import trainingCert from '../assets/certificates/w3grads_certificate.jpg'
+import trainingCert from '../assets/certificates/w3grads_certificate.jpg'
 // import resume from '../assets/resume.pdf'
 
 // ── Data — add more training items here ─────────────────────────────
@@ -11,8 +11,8 @@ const trainings = [
     title: 'MERN with Gen AI',
     organization: 'W3Grads',
     period: 'Jun 2025 – Jul 2025',
-    previewUrl: '#',   // replace with: trainingCert
-    downloadUrl: '#',  // replace with: trainingCert  (or a PDF)
+    previewUrl: 'trainingCert',   // replace with: trainingCert
+    downloadUrl: 'trainingCert',  // replace with: trainingCert  (or a PDF)
     points: [
       'Completed structured course covering basic to advanced MERN Stack concepts and projects',
       'Learned new frameworks like React.js, Express.js and MongoDB database',
