@@ -11,6 +11,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Achievements from './components/Achievements'
 import ProfessionalTraining from './components/ProfessionalTraining'
+ import ProfilePhoto from "./ProfilePhoto";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <main>
         <section id="home"><Hero /></section>
+        <section id="ProfilePhoto"><ProfilePhoto /></section>
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
         <section id="projects"><Projects /></section>
