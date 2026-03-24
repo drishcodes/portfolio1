@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { FiGithub, FiLinkedin, FiMail, FiDownload, FiExternalLink } from 'react-icons/fi'
 import resume from '../assets/resume.pdf'
-import profilePhoto from '../assets/profile.jpg' // ← rename your photo to profile.jpg → src/assets/profile.jpg
+import profilePhoto from 'IMG_20231029_105124475_HDR.jpg' // ← rename your photo to profile.jpg → src/assets/profile.jpg
 
 /* ─────────────────────────────────────────
    ProfilePhoto sub-component
