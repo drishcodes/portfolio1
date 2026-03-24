@@ -73,7 +73,6 @@ const achievements = [
     badgeBorder: 'rgba(0,234,100,0.2)',
     title: '3 Skill Badges',
     subtitle: 'HackerRank ',
-    desc: 'Achieved the highest 5-star rating on HackerRank\'s Java track by solving progressively challenging problems covering OOP, data structures, generics, and concurrency.',
     desc:'Earned three skill badges on HackerRank, demonstrating proficiency across multiple domains of problem-solving and programming.',
     stars: 5,
     starColor: '#ffd700',
