@@ -2,8 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { FiGithub, FiLinkedin, FiMail, FiDownload, FiExternalLink } from 'react-icons/fi'
-import resume from '../assets/images/resume.pdf'
-import profilePhoto from '../assets/certificates/w3grads_certificate.jpg' // ← rename your photo to profile.jpg → src/assets/profile.jpg
+import resume from '../assets/resume.pdf'
+import profilePhoto from '../assets/w3grads_certificate.jpg' // ← rename your photo to profile.jpg → src/assets/profile.jpg
 
 /* ─────────────────────────────────────────
    ProfilePhoto sub-component
