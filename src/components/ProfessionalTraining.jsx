@@ -11,8 +11,8 @@ const trainings = [
     title: 'MERN with Gen AI',
     organization: 'W3Grads',
     period: 'Jun 2025 – Jul 2025',
-    previewUrl: 'trainingCert',   // replace with: trainingCert
-    downloadUrl: 'trainingCert',  // replace with: trainingCert  (or a PDF)
+    previewUrl: trainingCert,   // replace with: trainingCert
+    downloadUrl: trainingCert,  // replace with: trainingCert  (or a PDF)
     points: [
       'Completed structured course covering basic to advanced MERN Stack concepts and projects',
       'Learned new frameworks like React.js, Express.js and MongoDB database',
